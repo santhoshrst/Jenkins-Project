@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-    @GetMapping("/home")
+    @GetMapping("home")
     public String home() {
-        return "WAR WORKING";
+        return "NEW WAR WORKING";
     }
 }
